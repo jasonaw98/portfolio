@@ -19,7 +19,7 @@ const ImageCard = () => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-0.5 px-0.5 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-0.5 px-0.5 min-h-[150px] md:min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={"src/assets/profilepic/mumo.jpeg"}
@@ -44,10 +44,10 @@ const Hero = () => {
   ];
 
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full h-screen mx-auto' id="hero">
        <div className={`absolute inset-0 max-w-7xl mx-auto flex md:flex-row items-center -mt-28 px-12 justify-center flex-col text-center md:text-left`}>
           <div className="md:flex-grow">
-            <h1 className={`${styles.heroHeadText} text-white font-inter`}>
+            <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I&apos;m <span className='bg-clip-text text-transparent bg-gradient-to-r  from-pink-500 to-violet-500'>Jason Aw</span>
             </h1>
             <br/>

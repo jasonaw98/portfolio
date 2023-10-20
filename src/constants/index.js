@@ -311,7 +311,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "src/assets/projects/webautomation.png",
+      image: "src/assets/projects/webautomation.jpg",
       source_code_link: "https://github.com/jasonaw98/WebAutomation",
       live_link: "https://github.com/jasonaw98/WebAutomation",
     },
@@ -380,28 +380,6 @@ import {
       image: "src/assets/projects/Multisig.png",
       source_code_link: "https://github.com/jasonaw98/MultiSig-ContractFactory",
       live_link: "https://github.com/jasonaw98/MultiSig-ContractFactory",
-    },
-    {
-      name: "Solana GIF Dapp",
-      description:
-        "A DAPP build on Solana Blockchain where users able to view and submit their favorite Electric Cars GIF or Images link. Build on Devnet and Sol Devnet is required.",
-      tags: [
-        {
-          name: "Next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Anchor",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Solana",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "src/assets/projects/SolDapp.png",
-      source_code_link: "https://github.com/jasonaw98/SolanaDapp",
-      live_link: "https://solana-dapp-lake.vercel.app/",
     },
     {
       name: "Solana NFT App with Metaplex",
