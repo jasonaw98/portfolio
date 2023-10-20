@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from "react-parallax-tilt";
-import { services } from "../constants";
-import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import {mumo} from '../assets'
 
 const ImageCard = () => (
   <Tilt className='xs:w-[330px] w-full mt-12'>
@@ -22,7 +20,7 @@ const ImageCard = () => (
         className='bg-tertiary rounded-[20px] py-0.5 px-0.5 min-h-[150px] md:min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
-          src={"src/assets/profilepic/mumo.jpeg"}
+          src={mumo}
           alt='web-development'
           className='object-contain rounded-2xl'
         />
