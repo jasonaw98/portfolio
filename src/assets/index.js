@@ -22,6 +22,26 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import solidity from "./tech/solidity.svg";
 
+import defi from "./projects/defi.png" 
+import drinking from "./projects/drinking.png" 
+import firstdao from "./projects/firstdao.png" 
+import inspirenote from "./projects/inspirenote.png" 
+import ipfsuploader from "./projects/ipfsuploader.png" 
+import loangraphia from "./projects/loangraphia.png" 
+import multisig from "./projects/Multisig.png" 
+import polygonNameService from "./projects/polygonNameService.png" 
+import portfoliov1 from "./projects/portfoliov1.png" 
+import solanaNFT from "./projects/solanaNFT.png" 
+import solanaportfolio from "./projects/solanaportfolio.png" 
+import solDapp from "./projects/SolDapp.png" 
+import webautomation from "./projects/webautomation.jpg"
+
+import mumo from "./profilepic/mumo.jpeg" 
+import resume from "./profilepic/resume.pdf"
+
+import bb from "./company/bb.jpg" 
+import gv from "./company/grass-valley.png"
+
 export {
   logo,
   backend,
@@ -45,4 +65,21 @@ export {
   typescript,
   threejs,
   solidity,
+  defi,
+  drinking,
+  firstdao,
+  inspirenote,
+  ipfsuploader,
+  loangraphia,
+  multisig,
+  polygonNameService,
+  portfoliov1,
+  solanaNFT,
+  solanaportfolio,
+  solDapp,
+  webautomation,
+  mumo,
+  resume,
+  bb,
+  gv,
 };
