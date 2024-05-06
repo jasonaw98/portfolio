@@ -17,7 +17,7 @@ const Navbar = () => {
         <span className='sm:block hidden'> Blockchain Developer</span></p>
       </Link>
       <ul className='list-none hidden sm:flex flex-row gap-10'>
-        <a href={`${resume}`} target="_blank" className='text-secondary text-[18px] font-medium hover:text-white'>Resume</a>
+        <a href={`https://docs.google.com/document/d/1oEXGzW--eptZe6lKES0xDf436Kd9_7Jl7_Y_fiyW21Q/edit?usp=drive_link`} target="_blank" className='text-secondary text-[18px] font-medium hover:text-white'>Resume</a>
         {navLinks.map((link) => (
           <li key={link.id} className={`${Active === link.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
             <a href={`#${link.id}`}>
@@ -35,7 +35,7 @@ const Navbar = () => {
         onClick={() => settoggle(!toggle)}/>
         <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
         <ul className='list-none flex justify-end items-start flex-col gap-4'>
-        <a href={`${resume}`} target="_blank" className='text-secondary text-[18px] font-medium hover:text-white'>Resume</a>
+        <a href={`https://docs.google.com/document/d/1oEXGzW--eptZe6lKES0xDf436Kd9_7Jl7_Y_fiyW21Q/edit?usp=drive_link`} target="_blank" className='text-secondary text-[18px] font-medium hover:text-white'>Resume</a>
         {navLinks.map((link) => (
           <li key={link.id} className={`${Active === link.title ? 'text-white' : 'text-secondary'} font-poppins text-[16px] font-medium cursor-pointer`} onClick={() => {settoggle(!toggle); setActive(link.title)}}>
             <a href={`#${link.id}`}>
